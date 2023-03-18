@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th  scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">mulheres</th>
+                <td>Ana</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>vingadores</td>
+            </tr>
+
+            <tr>
+                <td>Beatriz</td>
+                <td>Como treinar o seu dragão</td>
+                <td>divertidamente</td>
+                <td>como eu era antes de você</td>
+            </tr>
+
+            <tr>
+                <td>Carla</td>
+                <td>Batman</td>
+                <td>Hulk</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Marcelo</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>vingadores</td>
+            </tr>
+
+            <tr>
+                <td>Gabriel</td>
+                <td>Como treinar o seu dragão</td>
+                <td>divertidamente</td>
+                <td>como eu era antes de você</td>
+            </tr>
+
+            <tr>
+                <td>Fernando</td>
+                <td>Batman</td>
+                <td>Hulk</td>
+                <td>Big Hero</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
